@@ -1,0 +1,8 @@
+body{
+    color: $color-blue-dark;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom, $color-blue-dark 70%, $color-blue-light);
+    color: $color-white;
+}

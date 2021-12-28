@@ -1,0 +1,32 @@
+@mixin clearfix {
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+@mixin title-style {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $color-blue-dark;
+}
+
+@mixin text-style {
+    font-weight: 500;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+}
+
+@mixin image-style {
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@mixin box-shadow {
+    box-shadow: 0px 3px 6px rgba($color-black, 0.5);
+}

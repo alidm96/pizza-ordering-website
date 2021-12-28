@@ -1,0 +1,13 @@
+.title {
+    @include title-style;
+}
+
+.image {
+    @include image-style;
+    @include box-shadow;
+}
+
+.text {
+    font-size: 2rem;
+    @include text-style;
+}

@@ -1,0 +1,17 @@
+.title {
+    @include title-style;
+}
+
+.order {
+    &__image {
+        @include image-style;
+        @include box-shadow;
+    }
+
+    &__name {
+        font-size: 2.2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-left: 1.8rem;
+    }
+}

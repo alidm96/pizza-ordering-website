@@ -1,0 +1,49 @@
+.footer {
+    text-align: left;
+    padding: 10rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding-bottom: 3rem;
+
+        li a {
+            padding: 2rem;
+            color: $color-pink;
+        }
+    }
+
+    &__policy {
+        &--title {
+            text-transform: uppercase;
+            padding-bottom: 2rem;
+        }
+
+        &--paragraph {
+            line-height: 3.3rem;
+            text-align: left;
+        }
+    }
+
+    &__address {
+        text-align: center;
+        &--title {
+            text-transform: uppercase;
+            padding-bottom: 3rem;
+            a {
+                color: $color-pink;
+            }
+        }
+    }
+
+    &__copyright {
+        text-align: center;
+        margin-bottom: -5rem;
+        color: $color-green;
+    }
+}

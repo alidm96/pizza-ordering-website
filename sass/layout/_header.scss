@@ -1,0 +1,14 @@
+.header{
+    &__content {
+        &--image {
+            width: 50rem;
+            border-radius: 1rem;
+            @include box-shadow;
+        }
+
+        &--text {
+            font-size: 1.8rem;
+            @include text-style;
+        }
+    }
+}
