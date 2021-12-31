@@ -7,18 +7,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    color: transparent; 
+    color: transparent;
+
+    @include respond-to(phone) {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
 }
-/*
-.heading__primary {
-    font-size: 3rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    display: inline-block;
-    background-image: linear-gradient(to right, $color-green, $color-blue-light, $color-blue-dark);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    color: transparent; 
-}
-*/

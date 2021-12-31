@@ -1,4 +1,24 @@
+.section-paragraph .row {
+    @include respond-to(tablet-land) {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+    @include respond-to(tablet) {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    @include respond-to(phone) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .paragraph {
-    font-size: 2rem;
+    font-size: 1.8rem;
     @include text-style;
+    margin-bottom: 5rem;
+
+    @include respond-to(phone) {
+        text-align: center;
+    }
 }
