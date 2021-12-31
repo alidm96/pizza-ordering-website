@@ -4,11 +4,27 @@
             width: 50rem;
             border-radius: 1rem;
             @include box-shadow;
+
+            @include respond-to(tablet) {
+                width: 100%;
+            }
+            @include respond-to(phone) {
+                margin-bottom: 2rem;
+            }
         }
 
         &--text {
             font-size: 1.8rem;
             @include text-style;
+
+            @include respond-to(tablet) {
+                font-size: 1.5rem;
+            }
+            @include respond-to(phone) {
+                font-size: 1.2rem;
+                max-width: 100%;
+                text-align: center;
+            }
         }
     }
 }
